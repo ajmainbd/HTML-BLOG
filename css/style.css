@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;outline:0;}
+body{ font-family: Arial;font-size:14px;line-height: 18px;color: #0e0202;background:url(../image/slider/asdf.png)repeat scroll 0 0 ;}
+
+
+.templete{width:650px;margin:0 auto;}
+.clear{overflow: hidden;}
+
+.headersection{ background: #092406;color:#c11c1c;}
+
+.logo{ width: 430px;float: left;}
+.logo img{
+    float: left;
+    margin-right: 22px;
+    padding-bottom:17px;
+    padding-left:31px;
+    padding-top: 10px;
+    width: 130px;
+}
+.logo h2{
+    margin-top: 18px;
+    font-size: 37px;
+    margin-bottom: 17px;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 0 #666;
+
+}
+.logo p{}
+.social{ width:180px;
+     float:right;
+    padding-top: 45px;
+    }
+.social img{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+}
+
+.navsection{ height: 40px;background-color:pink;}
+.navsection ul{margin: 0;padding: 0;list-style: none;}
+.navsection ul li{display: block;float: left;}
+.navsection ul li a {
+    background: #7acaf5;
+    color: #6e0808;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px 30px;
+    text-decoration: none;
+    border: 1px solid #7c0707;
+}
+.navsection ul li a:hover{background: #cc0707;color:white;}
+#active{background: #cc0707;color:white;}
+.content{background: rgb(246, 246, 246);
+          width: 1024px;  
+          margin: 0 auto;
+}
+.maincontent{
+    width: 750px;
+    border: 3px solid darkblue;
+    background: #ececec none repeat scroll 0 0;
+    padding: 10px;
+    float: left;
+    margin: 15px 15px 15px 0;
+}
+.about{}
+.about img{
+    background:floralwhite none repeat scroll 0 0;
+    border: 6px solid #0478f5;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    width:200px;
+    height: 180px;
+}
+.about p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align:justify ;
+    color: #1d0885;
+}
+
+.samepost{}
+.samepost h2,.about h2{
+    background: skyblue;
+    border-bottom:3px solid #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgb(107, 18, 125);
+}
+.samepost img{
+    background: plum;
+    border: 1px solid #9b999a;
+    float: left;
+}
+.samepost p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+
+}
+.readmore{float: right;
+margin-top: 19px;
+}
+.readmore a{
+
+    background-color:#fff none repeat scroll 0 0;
+    border: 1px solid #9b999a;
+    border-radius: 3px;
+    color: #333;
+    display: block;
+    font-size: 17px;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+.readmore a:hover{color:#a40808;}
+
+.sidebar{width: 200px;
+    background: peachpuff;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 3px solid navy;
+
+}
+.samesidebar {
+    margin-bottom: 10px;
+}
+.samesidebar h2{
+    background: orange;
+    border-bottom: #b21212;
+    color: #e5e2e2;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+.samesidebar ul{padding: 0;margin:0;list-style:none;}
+.samesidebar ul li{
+    border-bottom: 1px dashed #ffff;
+    font-size:16px;
+    padding:5px 8px 5px 0 ;
+}
+.samesidebar ul li:last-child{border-bottom: 0px dashed #ffff;}
+.samesidebar ul li a{
+    text-decoration: none;
+    color: #0c024c;
+}
+.samesidebar ul li a:hover{ color: #0478f5;}
+
+
+.samesidebar p{
+    margin-bottom: 12px;
+}
+.footersection{height: 90px;
+    background: #555555;
+}
+.footersection p{
+    color:rgb(138, 228, 246);
+    text-align:center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+     
+}
+
+/* Slider */
+
+
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: 550px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    border: 2px solid #7acaf5;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 300px;
+}
+input[type="submit"]{
+    background-color:skyblue;
+    border: 2px solid black;
+    color: #ffffff;
+    cursor: pointer;
+    padding:2 px 10px ;
+    font-size: 15px;
+}
+input[type="submit"]:hover{background: #0a82f1;color: #791164;}
