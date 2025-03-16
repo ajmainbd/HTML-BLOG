@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0;outline:0;}
 body{ font-family: Arial;font-size:14px;line-height: 18px;color: #0e0202;background:url(../image/slider/asdf.png)repeat scroll 0 0 ;}
-
+                                           
 
 .templete{width:650px;margin:0 auto;}
 .clear{overflow: hidden;}
@@ -45,7 +45,7 @@ body{ font-family: Arial;font-size:14px;line-height: 18px;color: #0e0202;backgro
     font-size: 20px;
     font-weight: bold;
     margin: 5px;
-    padding: 5px 30px;
+    padding: 5px 30px 5px;
     text-decoration: none;
     border: 1px solid #7c0707;
 }
@@ -79,6 +79,13 @@ body{ font-family: Arial;font-size:14px;line-height: 18px;color: #0e0202;backgro
     margin-bottom: 10px;
     text-align:justify ;
     color: #1d0885;
+}
+.relatedpost{}
+.relatedpost h2{}
+.relatedpost img{
+    height:180px;
+    margin-bottom: 20px;
+    width: 187px;
 }
 
 .samepost{}
@@ -117,9 +124,9 @@ margin-top: 19px;
 }
 .readmore a:hover{color:#a40808;}
 
-.sidebar{width: 200px;
+.sidebar{width: 209px;
     background: peachpuff;
-    float: right;
+    float: left;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
@@ -133,8 +140,8 @@ margin-top: 19px;
     background: orange;
     border-bottom: #b21212;
     color: #e5e2e2;
-    margin-bottom: 8px;
-    padding: 10px;
+    margin-bottom:14px;
+    padding: 20px;
 }
 .samesidebar ul{padding: 0;margin:0;list-style:none;}
 .samesidebar ul li{
@@ -153,6 +160,25 @@ margin-top: 19px;
 .samesidebar p{
     margin-bottom: 12px;
 }
+.popolar{}
+.popolar h3{ 
+    border-bottom: 1px dashed #0a82f1;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.popolar h3 a{text-decoration: none;color: #ffffff;}
+.popolar img{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #0478f5;
+    border-radius: 30%;
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+.popolar p{}
 .footersection{height: 90px;
     background: #555555;
 }
